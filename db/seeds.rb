@@ -16,3 +16,9 @@ Clown.create(
   min_age: 10,
   price: 135.00,
 )
+
+Order.create(
+  user_id: 1,
+  clown_id: 1,
+  total_paid: 300.00,
+)
